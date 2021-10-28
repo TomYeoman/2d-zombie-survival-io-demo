@@ -1,7 +1,7 @@
 > NOTE - This is a WIP. Its intended purpose is to help understand how you can use a variety of web technologies, to build a multiplayer game from scratch.
 >  PR's to extend this demo, or improve the structure are most appreciated.
 
-> NengiJS can only run up until node 14.15.4 LTS currently ([See the following thread](https://discord.com/channels/429705662944247810/429711247513223190/803290730235166790)), therefore
+> NengiJS supports node V14.15.4 LTS or under currently ([See the following thread](https://discord.com/channels/429705662944247810/429711247513223190/803290730235166790)), therefore
 > please ensure you're using an appropiate version
 
 # Overview
