@@ -1,6 +1,8 @@
 > NOTE - This is a WIP. Its intended purpose is to help understand how you can use a variety of web technologies, to build a multiplayer game from scratch.
->  PR's to extend this demo, or improve the structure are most appreciated. 
+>  PR's to extend this demo, or improve the structure are most appreciated.
 
+> NengiJS can only run up until node 14.15.4 LTS currently (See https://discord.com/channels/429705662944247810/429711247513223190/803290730235166790), therefore
+> please ensure you're using a node version no higher.
 
 # Overview
 
@@ -12,14 +14,14 @@ https://user-images.githubusercontent.com/14075632/139267793-56c13afe-917c-4b54-
 
 A full demo project, which shows how to build a basic zombie survival multiplayer IO game, including -
 
-- Phaser running on the client, and server side
+- [Phaser](https://phaser.io/) running on the client, and server side
 - Full typescript support across server and client
-- Mutliplayer networking powered by nengijs - https://github.com/timetocode/nengi
-- UI powered by react + redux
+- Mutliplayer networking powered by [nengi.js](https://www.npmjs.com/package/nengi)
+- UI powered by [React + Redux](https://reactjs.org/docs/create-a-new-react-app.html)
 
 ## Game Details
 
-- Survive upto X rounds, against increasing horde sizes (all configurable here https://github.com/TomYeoman/2d-zombie-survival-io-demo/blob/main/server/src/config/zombie_config.ts#L3) 
+- Survive upto X rounds, against increasing horde sizes (all [configurable here](https://github.com/TomYeoman/2d-zombie-survival-io-demo/blob/main/server/src/config/zombie_config.ts#L3))
 - All dead players, will spawn at the start of each new round
 - Once all players are dead, game will restart
 
