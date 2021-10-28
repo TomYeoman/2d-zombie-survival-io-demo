@@ -17,6 +17,12 @@ A full demo project, which shows how to build a basic zombie survival multiplaye
 - Mutliplayer networking powered by nengijs - https://github.com/timetocode/nengi
 - UI powered by react + redux
 
+## Game Details
+
+- Survive upto X rounds, against increasing horde sizes (all configurable here https://github.com/TomYeoman/2d-zombie-survival-io-demo/blob/main/server/src/config/zombie_config.ts#L3) 
+- All dead players, will spawn at the start of each new round
+- Once all players are dead, game will restart
+
 ## Structure
 
 **Frontend**
