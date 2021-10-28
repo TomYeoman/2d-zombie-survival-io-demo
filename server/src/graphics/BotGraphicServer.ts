@@ -250,7 +250,7 @@ export class Bot extends Phaser.Physics.Arcade.Sprite {
 
 
     public takeDamage(damagerEntityId: number) {
-        this.health -= 5;
+        this.health -= 25;
 
 
         // TODO create correct event system soon?
