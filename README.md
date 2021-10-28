@@ -1,4 +1,5 @@
-> NOTE - This is a WIP, and is intended as a tech demo only. Use this to understand how to structure your project with the following stack - 
+> NOTE - This is a WIP. Its intended purpose is to help understand how you can use a variety of web technologies, to build a multiplayer game from scratch.
+>  PR's to extend this demo, or improve the structure are most appreciated. 
 
 
 # Overview
@@ -6,7 +7,7 @@
 https://user-images.githubusercontent.com/14075632/139267793-56c13afe-917c-4b54-b087-b966c388fb44.mp4
 
 
-An full demo, on how to build a basic zombie survival multiplayer IO game, including -
+A full demo project, which shows how to build a basic zombie survival multiplayer IO game, including -
 
 - Phaser running on the client, and server side
 - Full typescript support across server and client
