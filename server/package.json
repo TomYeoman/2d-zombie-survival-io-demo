@@ -1,6 +1,9 @@
 {
   "name": "express-typescript-starter",
   "version": "0.1.0",
+  "engines": {
+    "node": "<14.15.4"
+  },
   "description": "A starting point for Node.js express apps with TypeScript",
   "repository": {
     "type": "git",
@@ -49,12 +52,15 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
-    "@types/eslint": "^6.1.1",
+    "@types/eslint": "^7.28.2",
+    "@typescript-eslint/eslint-plugin": "^4",
+  "@typescript-eslint/parser": "^4",
+  "eslint": "^7.1.0",
     "@types/node": "^12.7.8",
     "@types/winston": "^2.4.4",
+
     "copy-webpack-plugin": "^5.1.1",
     "electron": "v10.4.7",
-    "eslint": "^6.4.0",
     "html-webpack-plugin": "^4.2.0",
     "jest": "^24.9.0",
     "nodemon": "^1.19.2",

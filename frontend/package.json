@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "engines" : { "node" : "<14.15.4" },
   "dependencies": {
     "@ion-phaser/react": "^1.2.2",
     "@reduxjs/toolkit": "^1.5.1",
