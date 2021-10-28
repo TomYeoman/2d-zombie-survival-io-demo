@@ -4,6 +4,9 @@
 
 # Overview
 
+
+https://user-images.githubusercontent.com/14075632/139271621-1b3cc9a7-63ae-4fd0-93e9-a0932a42877a.mp4
+
 https://user-images.githubusercontent.com/14075632/139267793-56c13afe-917c-4b54-b087-b966c388fb44.mp4
 
 
@@ -40,10 +43,10 @@ My development flow is as follows -
 - Open `frontend` folder, run `yarn start`
 - Open `server` folder, run `yarn debug`
 
-Set aliases -
+Reccomended aliases -
 
-2dfrontend='z /home/wsl-tom/git/side-projects/2d-shooter-2020-nengi-port/frontend && yarn start'
-2dserver='z /home/wsl-tom/git/side-projects/2d-shooter-2020-nengi-port/server && yarn debug'
+- 2dfrontend='z path-to-project/frontend && yarn start'
+- 2dserver='z path-to-project/server && yarn debug'
 
 They should now both automatically hot reload whenever you make a relevant change in the `frontend` / `server` directory.
 
