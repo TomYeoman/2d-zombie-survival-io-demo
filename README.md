@@ -1,9 +1,13 @@
+> NOTE - This is a WIP, and is intended as a tech demo only. Use this to understand how to structure your project with the following stack - 
+
 
 # Overview
 
-IO game boilerplate, featuring -
+https://user-images.githubusercontent.com/14075632/139267793-56c13afe-917c-4b54-b087-b966c388fb44.mp4
 
-Server
+
+An full demo, on how to build a basic zombie survival multiplayer IO game, including -
+
 - Phaser running on the client, and server side
 - Full typescript support across server and client
 - Mutliplayer networking powered by nengijs - https://github.com/timetocode/nengi
@@ -28,6 +32,8 @@ Server
 **Common**
 - Define re-useable data between frontend / backend (for example types, messages, entities etc)
 ## Getting started
+
+## How to run it
 
 My development flow is as follows -
 - Open `frontend` folder, run `yarn start`
