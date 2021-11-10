@@ -67,4 +67,4 @@ Currently changes to common require a manual reload on `server` - fix will come 
 WIP
 - Add client side prediction (simple providing your movement is deterministic on the server, will add example soon)
 
-> Disclaimer - THe images used are for demo purposes only, and I do not own the rights for them. Please replace them if you wish you use in a live project.
+> Disclaimer - The images used are for demo purposes only, and I do not own the rights for them. Please replace them if you wish you use in a live project.
