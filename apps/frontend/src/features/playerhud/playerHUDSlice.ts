@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import HudUpdateMessage from '../../../../common/message/HudUpdateMessage';
+import HudUpdateMessage from '@io/common/message/HudUpdateMessage';
 import { RootState, AppThunk } from '../../app/store';
 
 export interface PlayerHUD extends HudUpdateMessage{}

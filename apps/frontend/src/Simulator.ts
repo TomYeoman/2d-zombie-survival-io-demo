@@ -1,14 +1,14 @@
-import PlayerEntity from '../../common/entity/PlayerEntity'
+import PlayerEntity from '@io/common/entity/PlayerEntity'
 
 import InputSystem from "./InputSystem"
-import MoveCommand from '../../common/command/MoveCommand'
+import MoveCommand from '@io/common/command/MoveCommand'
 import nengi from 'nengi'
 import PhaserEntityRenderer from './PhaserEntityRenderer'
-import { entityTypes, lobbyState, messageTypes, Sounds, UNASSIGNED_ENTITY_ID } from '../../common/types/types'
-import FireCommand from '../../common/command/FireCommand'
-import BotEntity from '../../common/entity/BotEntity'
-import BulletEntity from '../../common/entity/BulletEntity'
-import NetLog from '../../common/message/NetLog'
+import { entityTypes, lobbyState, messageTypes, Sounds, UNASSIGNED_ENTITY_ID } from '@io/common/types/types'
+import FireCommand from '@io/common/command/FireCommand'
+import BotEntity from '@io/common/entity/BotEntity'
+import BulletEntity from '@io/common/entity/BulletEntity'
+import NetLog from '@io/common/message/NetLog'
 import { store } from './app/store';
 import { changeSlot } from './features/toolbar/toolbarSlice'
 import { updatePlayerHUD } from './features/playerhud/playerHUDSlice'

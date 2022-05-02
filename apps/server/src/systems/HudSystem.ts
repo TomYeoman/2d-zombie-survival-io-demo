@@ -1,9 +1,9 @@
 // Communicate with other systems, and create a single message message to repesent all state
 // can optimise by sending different messages, with different intervals in future.
 
-import HudUpdateMessage from "../../../common/message/HudUpdateMessage";
+import HudUpdateMessage from "@io/common/message/HudUpdateMessage";
 
-import { ExtendedNengiTypes } from "../../../common/types/custom-nengi-types";
+import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
 import logger from "../util/logger"
 import { BotSystem } from "./BotSystem";
 import { PlayerSystem } from "./PlayerSystem";

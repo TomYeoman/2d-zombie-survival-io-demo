@@ -1,13 +1,13 @@
 import nengi from "nengi";
 import Phaser from "phaser";
-import RequestSpawn from "../../../common/command/RequestSpawn";
-import { ExtendedNengiTypes } from "../../../common/types/custom-nengi-types";
-import { Sounds } from "../../../common/types/types";
+import RequestSpawn from "@io/common/command/RequestSpawn";
+import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
+import { Sounds } from "@io/common/types/types";
 import Simulator from "../Simulator";
 import { store } from '../app/store'
-import ModifyToolbarCommand from '../../../common/command/ModifyToolbarCommand'
-import RequestRunDebugCommand from '../../../common/command/RequestRunDebugCommand'
-import { REQUEST_DEBUG_COMMAND_TYPES } from "../../../common/types/types";
+import ModifyToolbarCommand from '@io/common/command/ModifyToolbarCommand'
+import RequestRunDebugCommand from '@io/common/command/RequestRunDebugCommand'
+import { REQUEST_DEBUG_COMMAND_TYPES } from "@io/common/types/types";
 
 export class LevelOne extends Phaser.Scene {
   map: Phaser.Tilemaps.Tilemap;

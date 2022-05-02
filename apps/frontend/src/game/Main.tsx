@@ -1,9 +1,9 @@
 import nengi from "nengi";
-import { clientFPS, phaserGameConfig } from "../../../common/config/phaserConfig";
+import { clientFPS, phaserGameConfig } from "@io/common/config/phaserConfig";
 import { installScenes } from ".";
-import {SCENE_NAMES} from "../../../common/types/types"
-import nengiConfig from "../../../common/config/nengiConfig";
-import { ExtendedNengiTypes } from "../../../common/types/custom-nengi-types";
+import {SCENE_NAMES} from "@io/common/types/types"
+import nengiConfig from "@io/common/config/nengiConfig";
+import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
 import { store } from '../app/store';
 
 export const newGame = () => {

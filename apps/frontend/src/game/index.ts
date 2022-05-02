@@ -1,5 +1,5 @@
 import { LevelOne } from "../scenes/level-one";
-import { SCENE_NAMES } from "../../../common/types/types"
+import { SCENE_NAMES } from "@io/common/types/types"
 
 /**
  * Register the scene classes to the given game using the SCENE_NAME enum values.

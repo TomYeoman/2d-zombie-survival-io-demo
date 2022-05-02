@@ -1,5 +1,5 @@
-import BulletEntity from "../../../common/entity/BulletEntity";
-import { ExtendedNengiTypes } from "../../../common/types/custom-nengi-types";
+import BulletEntity from "@io/common/entity/BulletEntity";
+import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
 import logger from "../util/logger"
 
 export class Bullets extends Phaser.Physics.Arcade.Group {
