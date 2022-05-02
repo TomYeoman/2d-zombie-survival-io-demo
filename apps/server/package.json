@@ -37,8 +37,7 @@
     "start:debug": "npm run build && node dist/server/src/server.js",
     "start:electron": "npm-run-all --parallel electron:*",
     "electron:app": "electron app.js",
-    "electron:webpack": "webpack --watch --config ./webpack.dev.js",
-    "postinstall": "webpack --config webpack.dev.js"
+    "electron:webpack": "webpack --watch --config ./webpack.dev.js"
   },
   "dependencies": {
     "@geckos.io/phaser-on-nodejs": "^1.2.5",
