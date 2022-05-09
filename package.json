@@ -19,7 +19,8 @@
     "typescript": "^4.6.2"
   },
   "scripts": {
-    "test": "concurrently \"cd apps/server && pnpm start\" \"cd apps/frontend && start\""
+    "build:server": "cd apps/server && pnpm run build",
+    "build:client": "cd apps/frontend && pnpm run build"
   },
   "repository": {
     "type": "git",
