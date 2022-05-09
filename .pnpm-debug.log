@@ -1,0 +1,24 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "C:\\Users\\sunra\\Desktop\\io-game-demo"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: build",
+      "code": "ENOENT",
+      "stack": "Error: not found: build\n    at getNotFoundError (C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:41518:51)\n    at Function.whichSync [as sync] (C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:41595:13)\n    at getCommandAbsolutePathSync (C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:43160:44)\n    at default_1 (C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:43169:32)\n    at C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:171190:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "C:\\Users\\sunra\\Desktop\\io-game-demo",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: build",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: build\n    at getNotFoundError (C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:41518:51)\n    at Function.whichSync [as sync] (C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:41595:13)\n    at getCommandAbsolutePathSync (C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:43160:44)\n    at default_1 (C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:43169:32)\n    at C:\\Users\\sunra\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@7.0.0\\node_modules\\pnpm\\dist\\pnpm.cjs:171190:39"
+    }
+  }
+}
