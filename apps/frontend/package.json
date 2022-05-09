@@ -2,7 +2,9 @@
   "name": "@io/web",
   "version": "0.1.0",
   "private": true,
-  "engines" : { "node" : "<14.15.4" },
+  "engines": {
+    "node": "<=14.15.4"
+  },
   "dependencies": {
     "@ion-phaser/react": "^1.2.2",
     "@reduxjs/toolkit": "^1.5.1",
@@ -23,7 +25,8 @@
     "react-scripts": "4.0.1",
     "socket.io-client": "^3.0.4",
     "typescript": "^4.0.3",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "@fullhuman/postcss-purgecss": "^3.1.3"
   },
   "scripts": {
     "start": "npm run watch:css && react-app-rewired start",

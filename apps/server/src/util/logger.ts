@@ -83,7 +83,7 @@ const format = winston.format.combine(
   winston.format.colorize({ all: true }),
   // Define the format of the message showing the timestamp, the level and the message
   winston.format.printf(
-    (info) => `[${info.level} - ${info.timestamp} (${getFileNameAndLineNumber()})] - ${info.message}`,
+    (info: any) => `[${info.level} - ${info.timestamp} (${getFileNameAndLineNumber()})] - ${info.message}`,
     ),
 
 
@@ -96,8 +96,7 @@ const transports = [
   new winston.transports.Console(),
   // Allow to print all the error level messages inside the error.log file
   new winston.transports.File({
-    filename: 'logs/error.log',
-    level: 'error',
+    filename: 'logs/error.log'
   }),
   // Allow to print all the error message inside the all.log file
   // (also the error log that are also printed inside the error.log(

@@ -17,7 +17,7 @@ export class LevelOne extends Phaser.Scene {
   last_ts: number
   levelName = "zm_castle";
   store: typeof store
-  oldState:  ReturnType<typeof store.getState>
+  oldState: ReturnType<typeof store.getState>
 
   init = ({ nengiClient, storeRef }: { nengiClient: any, storeRef: typeof store }) => {
     console.log("RUNNING INIT LEVEL_ONE")
@@ -51,7 +51,7 @@ export class LevelOne extends Phaser.Scene {
       const ModToolbarCommand = new ModifyToolbarCommand(newState.toolbar.selectedSlot)
       this.nengiClient.addCommand(ModToolbarCommand)
     }
-    if (this.oldState?.debugBar?.killFlag && this.oldState?.debugBar?.killFlag  !== newState.debugBar.killFlag) {
+    if (this.oldState?.debugBar?.killFlag && this.oldState?.debugBar?.killFlag !== newState.debugBar.killFlag) {
       const requestRunDebugCommand = new RequestRunDebugCommand(REQUEST_DEBUG_COMMAND_TYPES.KILL)
       this.nengiClient.addCommand(requestRunDebugCommand)
     }
