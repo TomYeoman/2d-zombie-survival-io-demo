@@ -2,7 +2,7 @@
   "name": "@io/server",
   "version": "0.1.0",
   "engines": {
-    "node": "<14.15.4"
+    "node": "<=14.15.4"
   },
   "description": "A starting point for Node.js express apps with TypeScript",
   "repository": {
@@ -73,7 +73,7 @@
     "webpack-node-externals": "^1.7.2"
   },
   "resolutions": {
-    "react": "16.14.26"
+    "react": "16.14.25"
   },
   "bugs": {
     "url": "https://github.com/Microsoft/TypeScript-Node-Starter/issues"
