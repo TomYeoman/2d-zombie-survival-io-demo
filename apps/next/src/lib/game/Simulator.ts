@@ -9,9 +9,9 @@ import FireCommand from '@io/common/command/FireCommand'
 import BotEntity from '@io/common/entity/BotEntity'
 import BulletEntity from '@io/common/entity/BulletEntity'
 import NetLog from '@io/common/message/NetLog'
-import { store } from './app/store';
-import { changeSlot } from './features/toolbar/toolbarSlice'
-import { updatePlayerHUD } from './features/playerhud/playerHUDSlice'
+import { store } from '../../app/store';
+import { changeSlot } from '../../features/toolbar/toolbarSlice'
+import { updatePlayerHUD } from '../../features/playerhud/playerHUDSlice'
 
 class Simulator {
     input: InputSystem

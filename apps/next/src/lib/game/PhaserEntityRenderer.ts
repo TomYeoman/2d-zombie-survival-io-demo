@@ -3,7 +3,7 @@ import nengi from 'nengi'
 import PlayerGraphicClient from '@io/common/graphics/PlayerGraphicClient'
 import BotGraphicClient from '@io/common/graphics/BotGraphicClient'
 import { entityTypes, messageTypes } from '@io/common/types/types'
-import { SCENE_NAMES } from './game/index'
+import { SCENE_NAMES } from '../../game/index'
 import BulletGraphicClient from '@io/common/graphics/BulletGraphicClient'
 
 class PhaserEntityRenderer {

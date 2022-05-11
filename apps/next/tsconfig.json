@@ -44,7 +44,7 @@
   },
   "include": [
     "src/**/*"
-  ],
+, "styles/theme.ts"  ],
   "exclude": [
     "node_modules"
   ],

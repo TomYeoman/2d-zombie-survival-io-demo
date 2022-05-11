@@ -3,7 +3,7 @@ import Phaser from "phaser";
 import RequestSpawn from "@io/common/command/RequestSpawn";
 import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
 import { Sounds } from "@io/common/types/types";
-import Simulator from "../Simulator";
+import Simulator from "../lib/game/Simulator";
 import { store } from '../app/store'
 import ModifyToolbarCommand from '@io/common/command/ModifyToolbarCommand'
 import RequestRunDebugCommand from '@io/common/command/RequestRunDebugCommand'
