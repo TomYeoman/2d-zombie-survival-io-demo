@@ -2,7 +2,7 @@ require("@geckos.io/phaser-on-nodejs");
 import Phaser from "phaser";
 
 // @ts-ignore
-import {phaserGameConfig, serverFPS} from "@io/common/config/phaserConfig";
+import {phaserGameConfig, serverFPS} from "../../../common/config/phaserConfig";
 global.phaserOnNodeFPS = serverFPS; // default is 60
 
 // prepare the config for Phaser

@@ -71,6 +71,9 @@
     "webpack-dev-server": "^3.10.3",
     "webpack-node-externals": "^1.7.2"
   },
+  "resolutions": {
+    "react": "16.14.0"
+  },
   "bugs": {
     "url": "https://github.com/Microsoft/TypeScript-Node-Starter/issues"
   },

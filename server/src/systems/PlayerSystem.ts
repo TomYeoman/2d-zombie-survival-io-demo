@@ -1,7 +1,7 @@
 import PlayerGraphicServer from "../graphics/PlayerGraphicServer";
-import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
-import PlayerEntity from "@io/common/entity/PlayerEntity";
-import Identity from "@io/common/message/Identity";
+import { ExtendedNengiTypes } from "../../../common/types/custom-nengi-types";
+import PlayerEntity from "../../../common/entity/PlayerEntity";
+import Identity from "../../../common/message/Identity";
 import { BotSystem } from "./BotSystem";
 import logger from "../util/logger"
 

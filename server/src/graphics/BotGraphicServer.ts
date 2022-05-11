@@ -1,7 +1,7 @@
 import EasyStar from "easystarjs";
-import BotEntity from "@io/common/entity/BotEntity";
-import PlayerEntity from "@io/common/entity/PlayerEntity";
-import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
+import BotEntity from "../../../common/entity/BotEntity";
+import PlayerEntity from "../../../common/entity/PlayerEntity";
+import { ExtendedNengiTypes } from "../../../common/types/custom-nengi-types";
 import {PlayerSystem} from "../systems/PlayerSystem";
 import logger from "../util/logger";
 

@@ -1,7 +1,7 @@
 import PlayerGraphicServer from "../graphics/PlayerGraphicServer";
 import {config} from "../config/zombie_config";
-import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
-import NetLog from "@io/common/message/NetLog";
+import { ExtendedNengiTypes } from "../../../common/types/custom-nengi-types";
+import NetLog from "../../../common/message/NetLog";
 import EasyStar from "easystarjs";
 import {Bots, Bot}  from "../graphics/BotGraphicServer";
 import { PlayerSystem } from "./PlayerSystem";

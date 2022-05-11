@@ -1,5 +1,5 @@
 import { newGame } from "./game/main";
-import nengiConfig from "@io/common/config/nengiConfig";
+import nengiConfig from "../../common/config/nengiConfig";
 import nengi from "nengi";
 
 class GameServer {

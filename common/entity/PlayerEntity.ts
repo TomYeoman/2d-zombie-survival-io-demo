@@ -8,8 +8,9 @@ class PlayerEntity {
     isAlive: boolean
 
     // Automatically assigned when added to nengi
-    nid: number
-    ntype: string
+    // Automatically assigned when added to nengi
+    nid!: number
+    ntype!: string
 
     // Added ourself, not sent over wire?
     client: any

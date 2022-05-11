@@ -3,8 +3,8 @@ import nengi from 'nengi'
 class BulletEntity {
 
     // Automatically assigned when added to nengi
-    nid: number
-    ntype: string
+    nid!: number
+    ntype!: string
 
     constructor(private x:number, private y:number, private rotation:number ) {
         this.x = x

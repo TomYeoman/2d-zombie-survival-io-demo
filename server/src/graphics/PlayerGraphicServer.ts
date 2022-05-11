@@ -1,5 +1,5 @@
-import WeaponSystem from "@io/common/modules/WeaponSystem";
-import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
+import WeaponSystem from "../../../common/modules/WeaponSystem";
+import { ExtendedNengiTypes } from "../../../common/types/custom-nengi-types";
 import Phaser from "phaser";
 import { Bullet, Bullets } from "./BulletsGraphicServer";
 import { BotSystem } from "../systems/BotSystem";

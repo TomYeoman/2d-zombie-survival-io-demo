@@ -1,4 +1,4 @@
-import { SCENE_NAMES } from "@io/common/types/types"
+import { SCENE_NAMES } from "../../../common/types/types";
 import LevelOne from "../scenes/level_one";
 
 /**
