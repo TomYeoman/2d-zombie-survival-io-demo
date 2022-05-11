@@ -13,7 +13,7 @@
       "composite": true,
       "incremental": true,
       "paths": {
-        "app/*": ["./packages/app/*"]
+        "common/*": ["./packages/common/*"]
       }
     },
     "exclude": ["packages/**/tests/**", "packages/**/dist/**"],
