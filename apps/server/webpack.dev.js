@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require("path");
 const nodeExternals = require("webpack-node-externals");
 
@@ -19,6 +20,12 @@ module.exports = {
       {
         test: /\.tsx?$/,
         loader: "ts-loader",
+        /* options: {
+          presets: [
+            ["@babel/preset-env"],
+            ["@babel/preset-react"]
+          ]
+        } */
       },
     ],
   },

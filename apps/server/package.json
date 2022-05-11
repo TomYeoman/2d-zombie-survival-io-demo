@@ -72,10 +72,6 @@
   "resolutions": {
     "react": "16.14.26"
   },
-  "bugs": {
-    "url": "https://github.com/Microsoft/TypeScript-Node-Starter/issues"
-  },
-  "homepage": "https://github.com/Microsoft/TypeScript-Node-Starter#readme",
   "main": "jest.config.js",
   "directories": {
     "test": "test"

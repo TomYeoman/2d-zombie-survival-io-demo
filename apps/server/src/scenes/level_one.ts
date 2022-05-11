@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 // require('@geckos.io/phaser-on-nodejs')
 import Phaser from "phaser";
 const path = require("path");
