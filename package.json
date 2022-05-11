@@ -4,10 +4,6 @@
   "private": true,
   "description": "A way to quickly develop a multiplayer game with modularity in mind. Fufills vision to make cross-platform web games",
   "main": "index.js",
-  "workspaces": [
-    "./apps/*",
-    "./packages/*"
-  ],
   "devDependencies": {
     "concurrently": "^7.1.0",
     "dotenv": "^16.0.1",
@@ -17,9 +13,9 @@
     "typescript": "^4.6.4"
   },
   "scripts": {
-    "web": "cd apps/next && yarn dev",
-    "build:server": "cd apps/server && yarn build",
-    "build:client": "cd apps/frontend && yarn build"
+    "web": "cd next && yarn dev",
+    "build:server": "cd server && yarn build",
+    "build:client": "cd next && yarn build"
   },
   "repository": {
     "type": "git",

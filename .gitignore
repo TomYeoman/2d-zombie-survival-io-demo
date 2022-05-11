@@ -1,6 +1,9 @@
 common/node_modules/
 frontend/.eslintcache
 node_modules
+<<<<<<< HEAD
 .next
 dist
+=======
+>>>>>>> b49997ed0504da5a8258dbd7ff6cc42d923bf15e
 Pyramids

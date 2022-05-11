@@ -1,0 +1,79 @@
+{
+  "name": "@io/server",
+  "version": "0.1.0",
+  "engines": {
+    "node": "14.15.4"
+  },
+  "description": "A starting point for Node.js express apps with TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/TypeScript-Node-Starter.git"
+  },
+  "author": "Alim Amen RA",
+  "license": "MIT",
+  "scripts": {
+    "// ------ DEVELOPMENT ----- //": "",
+    "set-env": "cross-env NODE_ENV=development",
+    "debug": "npm run set-env && nodemon src/server.ts",
+    "convert": "npm run set-env && ts-jest config:migrate ./jest.config.js",
+    "watch-debug": "npm run set-env && nodemon --inspect dist/server.js",
+    "// ------ TESTING ----- //": "",
+    "test": "jest --forceExit --coverage --v erbose",
+    "watch-test": "npm run test -- --watchAll",
+    "coverage": "jest --collectCoverageFrom=src/**/*.ts --coverage",
+    "stress-test": "npm run set-env && nodemon ./src/bot/stresstest.ts",
+    "// ------ BUILDING ----- //": "",
+    "build": "tsc",
+    "postbuild": "cp -r ./src/assets dist/server/src/assets",
+    "build:watch": "tsc -w",
+    "// ------ LINTING ----- //": "",
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "// ------ DB-MIGRATIONS ----- //": "",
+    "knex:migrate:make": "npx knex --knexfile src/db/knexfile.ts -x ts migrate:make",
+    "knex:migrate:latest": "npx knex --knexfile src/db/knexfile.ts migrate:latest",
+    "knex:migrate:rollback": "npx knex --knexfile src/db/knexfile.ts migrate:rollback",
+    "// ------ PRODUCTION ----- //": "",
+    "start": "node dist/server/src/server.js",
+    "start:debug": "npm run build && node dist/server/src/server.js",
+    "start:electron": "npm-run-all --parallel electron:*",
+    "electron:app": "electron app.js",
+    "electron:webpack": "webpack --watch --config ./webpack.dev.js",
+    "webpack": "webpack --config webpack.dev.js"
+  },
+  "dependencies": {
+    "@geckos.io/phaser-on-nodejs": "^1.2.7",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "easystarjs": "^0.4.4",
+    "@io/common": "*",
+    "npm-run-all": "^4.1.5",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.2",
+    "@types/winston": "^2.4.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "copy-webpack-plugin": "^10.2.4",
+    "eslint": "^7.1.0",
+    "electron": "v10.4.7",
+    "five-server": "0.1.4",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "resolutions": {
+    "react": "16.14.26"
+  },
+  "main": "jest.config.js",
+  "directories": {
+    "test": "test"
+  }
+}
