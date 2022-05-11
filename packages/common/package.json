@@ -10,9 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/uuid": "^8.3.0",
-    "nengi": "1.18.0",
-    "phaser": "~3.24.1",
+    "@types/node": "^17.0.32",
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^16.9.8",
+    "@types/uuid": "^8.3.4",
+    "nengi": "1.27.0",
+    "phaser": "~3.55.2",
     "uuid": "^8.3.2"
   }
 }
