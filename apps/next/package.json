@@ -32,6 +32,7 @@
     "next-fonts": "^1.5.1",
     "next-images": "^1.8.4",
     "next-mdx-remote": "^4.0.3",
+    "next-offline": "5.0.5",
     "plaiceholder": "^2.3.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.1",
