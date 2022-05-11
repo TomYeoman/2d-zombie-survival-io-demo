@@ -17,8 +17,9 @@
     "typescript": "^4.6.4"
   },
   "scripts": {
-    "build:server": "cd apps/server && pnpm run build",
-    "build:client": "cd apps/frontend && pnpm run build"
+    "web": "cd apps/next && yarn dev",
+    "build:server": "cd apps/server && yarn build",
+    "build:client": "cd apps/frontend && yarn build"
   },
   "repository": {
     "type": "git",

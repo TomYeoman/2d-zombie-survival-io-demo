@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "strictNullChecks": true,
+      "noUncheckedIndexedAccess": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "ES2017",
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "composite": true,
+      "incremental": true,
+      "paths": {
+        "app/*": ["./packages/app/*"]
+      }
+    },
+    "exclude": ["packages/**/tests/**", "packages/**/dist/**"],
+    "references": [
+      {
+        "path": "./apps/*"
+      },
+      {
+        "path": "./packages/*"
+      }
+    ]
+  }
