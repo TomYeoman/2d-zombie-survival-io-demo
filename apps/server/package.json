@@ -57,6 +57,7 @@
     "copy-webpack-plugin": "^10.2.4",
     "eslint": "^7.1.0",
     "electron": "v10.4.7",
+    "five-server": "0.1.4",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^28.1.0",
     "nodemon": "^2.0.16",
