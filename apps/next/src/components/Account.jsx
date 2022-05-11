@@ -1,6 +1,6 @@
 import { useMoralis } from 'react-moralis';
 import { useState, useMemo } from 'react';
-import { getEllipsisTxt } from 'src/helpers/formatters';
+import { getEllipsisTxt } from '../lib/utils/formatters'
 import PropTypes from 'prop-types';
 import Blockie from './Blockie';
 import Dialog from '@mui/material/Dialog';
@@ -9,7 +9,7 @@ import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
 import LinkIcon from '@mui/icons-material/Link';
 import Address from './Address/Address';
-import { getExplorer } from 'src/helpers/networks';
+import { getExplorer } from '../lib/utils/networks';
 
 const styles = {
   account: {

@@ -2,7 +2,7 @@ import { useMoralis } from 'react-moralis';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
-import { useERC20Balance } from 'src/hooks/useERC20Balance';
+import { useERC20Balance } from '../hooks/useERC20balance'
 import Skeleton from '@mui/material/Skeleton';
 import { alpha } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -26,7 +26,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOnSharp';
-import { getEllipsisTxt } from 'src/helpers/formatters';
+import { getEllipsisTxt } from '../lib/utils/formatters';
 
 const styles = {
   title: {

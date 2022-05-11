@@ -1,24 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { store } from '../app/store';
-import Main from '../game/Main';
-import { Toolbar } from '../features/toolbar/Toolbar';
-import { GameStatusHUD } from '../features/playerhud/GameStatusHUD';
-import { PlayerHUD } from '../features/playerhud/PlayerHUD';
-import { DebugBar } from '../features/debugbar/DebugBar';
+import Chains from 'components/Chains';
+import ERC20Balance from 'components/ERC20Balance';
+import ERC20Transfers from 'components/ERC20Transfers';
+import Account from 'components/Account';
+import styles from '../../styles/Home.module.css'
+import dynamic from 'next/dynamic';
+const MobileNav = dynamic(() => import('components/MobileNav'), {
+  ssr: false,
+});
 
-ReactDOM.render(
-  <React.StrictMode>
-        <Provider store={store}>
+const test = () => {
+  return (
+    <div className={styles.main}>
+      <Chains />
+      <Account />
+      <h2>Deploy Contract</h2>
+      <ERC20Balance />
+      <ERC20Transfers />
+      <MobileNav />
+    </div>
+  );
+};
 
-      <Main />
-      <GameStatusHUD/>
-      <Toolbar/>
-      <DebugBar/>
-      <PlayerHUD/>
-      </Provider>
-
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export default test;

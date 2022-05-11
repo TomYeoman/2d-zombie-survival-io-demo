@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getEllipsisTxt } from 'src/helpers/formatters';
+import { getEllipsisTxt } from '../../lib/utils/formatters';
 import Blockie from '../Blockie';
 import { useMoralis } from 'react-moralis';
 import Skeleton from '@mui/material/Skeleton';

@@ -11,8 +11,8 @@
       "@assets/*": [
         "../public/*"
       ],
-      "@scss/*": [
-        "../scss/*"
+      "@styles/*": [
+        "../styles/*"
       ],
       "@components/*": [
         "components/*"
@@ -22,6 +22,9 @@
       ],
       "@lib/*": [
         "lib/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
       ]
     },
     "lib": [
@@ -43,7 +46,8 @@
     "jsx": "preserve"
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "../styles/*"
 , "styles/theme.ts"  ],
   "exclude": [
     "node_modules"
