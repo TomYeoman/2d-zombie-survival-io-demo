@@ -97,7 +97,7 @@ const transports = [
   // Allow to print all the error level messages inside the error.log file
   new winston.transports.File({
     filename: "logs/error.log",
-    // @ts-expect-error
+    // @ts-ignore
     level: "error",
   }),
   // Allow to print all the error message inside the all.log file
