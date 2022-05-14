@@ -1,5 +1,5 @@
 {
-  "name": "@io/web",
+  "name": "@io/next",
   "author": "Alim Amen RA",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.8.1",
     "@happykit/flags": "2.0.5-perf.0",
+    "@io/common": "*",
     "@ion-phaser/react": "^1.3.0",
     "@reduxjs/toolkit": "^1.8.1",
     "@mui/icons-material": "^5.6.2",
@@ -36,7 +37,10 @@
     "next-mdx-remote": "^4.0.3",
     "next-offline": "5.0.5",
     "next-transpile-modules": "9.0.0",
+    "matter-js": "0.17.1",
+    "phaser": "^3.55.2",
     "plaiceholder": "^2.3.0",
+    "poly-decomp": "^0.3.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.1",
     "react-awesome-reveal": "^3.8.1",
@@ -51,21 +55,23 @@
     "sharp": "^0.30.4",
     "sitemap": "^7.1.1",
     "socket.io-client": "^4.5.0",
+    "three": "~0.137.4",
     "typescript": "^4.6.4",
     "use-debounce": "^8.0.1",
     "use-shopping-cart": "^3.1.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@babel/core": "7.0.0",
+    "@babel/core": "^7.4.0",
     "@types/three": "~0.137.0",
     "@types/jest": "^27.5.0",
     "@types/matter-js": "0.17.6",
     "@types/socket.io-client": "^3.0.0",
-    "matter-js": "0.17.1",
-    "phaser": "^3.55.2",
-    "poly-decomp": "^0.3.0",
-    "three": "~0.137.4",
-    "webpack": "5.0.0"
+    "csstype": "3.0.10",
+    "redux": "4.2.0",
+    "webpack": "^4.19.1"
+  },
+  "resolutions": {
+    "react": "^16.7.0"
   }
 }

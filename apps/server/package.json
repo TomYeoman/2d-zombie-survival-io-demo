@@ -1,5 +1,5 @@
 {
-  "name": "express-typescript-starter",
+  "name": "@io/server",
   "version": "0.1.0",
   "engines": {
     "node": "14.15.4"
@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@geckos.io/phaser-on-nodejs": "^1.2.5",
+    "@io/common": "*",
     "@types/uuid": "^8.3.0",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
@@ -53,9 +54,9 @@
   },
   "devDependencies": {
     "@types/eslint": "^7.28.2",
-    "@typescript-eslint/eslint-plugin": "^4",
-    "@typescript-eslint/parser": "^4",
-    "eslint": "^7.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "4.15.2",
+    "eslint": "7.1.0",
     "@types/node": "^12.7.8",
     "@types/winston": "^2.4.4",
     "copy-webpack-plugin": "^5.1.1",

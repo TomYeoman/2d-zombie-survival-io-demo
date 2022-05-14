@@ -2,16 +2,16 @@
 // require('@geckos.io/phaser-on-nodejs')
 import Phaser from "phaser";
 const path = require("path");
-import { ExtendedNengiTypes } from "../../../common/types/custom-nengi-types";
-import { commandTypes, lobbyState, SCENE_NAMES } from "../../../common/types/types";
-import nengiConfig from "../../../common/config/nengiConfig";
-import FireCommand from "../../../common/command/FireCommand";
+import { ExtendedNengiTypes } from "@io/common/types/custom-nengi-types";
+import { commandTypes, lobbyState, SCENE_NAMES } from "@io/common/types/types";
+import nengiConfig from "@io/common/config/nengiConfig";
+import FireCommand from "@io/common/command/FireCommand";
 import PlayerGraphicServer from "../graphics/PlayerGraphicServer";
 import { BotSystem, GAME_STATE } from "../systems/BotSystem";
-import ToolbarUpdatedMessage from "../../../common/message/ToolbarUpdatedMessage";
+import ToolbarUpdatedMessage from "@io/common/message/ToolbarUpdatedMessage";
 import { PlayerSystem } from "../systems/PlayerSystem";
-import ModifyToolbarCommand from "../../../common/command/ModifyToolbarCommand";
-import RequestRunDebugCommand from "../../../common/command/RequestRunDebugCommand";
+import ModifyToolbarCommand from "@io/common/command/ModifyToolbarCommand";
+import RequestRunDebugCommand from "@io/common/command/RequestRunDebugCommand";
 
 import logger from "../util/logger";
 import { HudSystem } from "../systems/HudSystem";
