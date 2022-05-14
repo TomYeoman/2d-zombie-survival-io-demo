@@ -48,7 +48,7 @@
   "include": [
     "src/**/*",
     "../styles/*"
-, "styles/theme.ts"  ],
+, "src/styles/theme.ts"  ],
   "exclude": [
     "node_modules"
   ],

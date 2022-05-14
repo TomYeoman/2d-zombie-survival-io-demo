@@ -1,6 +1,6 @@
 declare module 'micro';
 declare module 'micro-cors';
-
+declare module '*.css';
 type ToolbarItem = {
   name: string,
   image: string,

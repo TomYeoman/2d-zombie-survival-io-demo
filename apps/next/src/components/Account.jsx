@@ -109,19 +109,6 @@ export default function Account() {
   const handleClose = () => {
     setOpen(false);
   };
-  if (isUnauthenticated && chainId === '0x1507')
-    return (
-      <div
-        style={styles.account}
-        onClick={() =>
-          authenticate({ type: 'sol' }).then(function (user) {
-            console.log(user.get('solAddress'));
-          })
-        }
-      >
-        <p style={styles.text}>Login</p>
-      </div>
-    );
   if (isUnauthenticated) {
     return (
       <div
@@ -160,7 +147,7 @@ export default function Account() {
     <>
       <div style={styles.account} onClick={handleClickOpen}>
         <p style={{ marginRight: '5px', ...styles.text }}>
-          {getEllipsisTxt(account, 6)}
+          {account ? getEllipsisTxt(account, 6): ''}
         </p>
         <Blockie currentWallet={address} scale={3} />
       </div>
