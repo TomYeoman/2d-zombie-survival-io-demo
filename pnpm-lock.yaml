@@ -144,6 +144,7 @@ importers:
       eslint: 7.1.0
       html-webpack-plugin: ^4.2.0
       jest: ^24.9.0
+      logform: 2.4.0
       nengi: 1.20.0
       nodemon: ^1.19.2
       npm-run-all: ^4.1.5
@@ -156,6 +157,7 @@ importers:
       webpack-dev-server: ^3.10.3
       webpack-node-externals: ^1.7.2
       winston: ^3.2.1
+      winston-transport: ^3.2.1
     dependencies:
       '@geckos.io/phaser-on-nodejs': 1.2.7
       '@io/common': link:../../packages/common
@@ -163,10 +165,12 @@ importers:
       cross-env: 7.0.3
       dotenv: 8.6.0
       easystarjs: 0.4.4
+      logform: 2.4.0
       nengi: 1.20.0
       npm-run-all: 4.1.5
       phaser: 3.22.0
       winston: 3.7.2
+      winston-transport: 3.2.1
     devDependencies:
       '@types/eslint': 7.29.0
       '@types/node': 12.20.52
@@ -13827,6 +13831,12 @@ packages:
     dependencies:
       string-width: 2.1.1
     dev: true
+
+  /winston-transport/3.2.1:
+    resolution: {integrity: sha512-WPqbdAmMK/kfWCWKM2bA1o997wWPZ0jg5NpO8JPqoaDZgCiZnFpIEddcf7Ur4UZV2sYRUdySVBWKx0+gQQ/jrg==}
+    dependencies:
+      logform: 2.4.0
+    dev: false
 
   /winston-transport/4.5.0:
     resolution: {integrity: sha512-YpZzcUzBedhlTAfJg6vJDlyEai/IFMIVcaEZZyl3UXIl4gmqRpU7AE89AHLkbzLUsv0NVmw7ts+iztqKxxPW1Q==}
